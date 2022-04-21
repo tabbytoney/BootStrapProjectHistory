@@ -1,9 +1,27 @@
+html body {
+  background-color: #d0c8b0;
+}
+
+#headingContain {
+  background-color: #a59881;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Roboto;
+}
+
 .card {
   height: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
   padding: 15;
+  font-family: Roboto;
 }
 
 .card:hover {
@@ -15,7 +33,7 @@
 }
 
 .jumbotron {
-  background-image: url("../img/stardew.png");
+  background-image: url("../img/Ross.png");
   background-size: cover;
   margin-bottom: 0;
 }
@@ -24,6 +42,46 @@
   margin-top: 10;
 }
 
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0;
+}
+
+.carousel-indicators li {
+  background-color: beige;
+}
+.carousel-indicators li.active {
+  background-color: rgb(108, 52, 6);
+}
+
+.carousel-item img {
+  width: auto;
+  height: 450px;
+  max-height: 600px;
+}
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
 .navbar {
   margin-bottom: 20;
+  background-color: #a59881;
+}
+
+.navbar-brand {
+  color: black;
+}
+
+.nav-link {
+  color: #545046;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
 }
