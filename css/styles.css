@@ -3,7 +3,7 @@ html body {
 }
 
 #headingContain {
-  background-color: #a59881;
+  background-color: #a59881be;
   padding: 0;
 }
 
@@ -84,4 +84,34 @@ h5 {
   width: 100%;
   height: 15vw;
   object-fit: cover;
+}
+
+.card-img-end {
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+}
+
+.site-footer {
+  background-image: url("../img/Ross.png");
+  background-size: cover;
+  padding: 20px 0;
+}
+
+#footerContainer {
+  background-color: #a59881be;
+}
+
+.lowLink {
+  color: #545046;
+}
+
+.btn {
+  background-color: #d0c8b0;
+  margin-top: auto;
+  align-self: end;
+}
+
+#newEchota-img {
+  max-height: 200px;
 }
