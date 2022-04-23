@@ -3,7 +3,7 @@ html body {
 }
 
 #headingContain {
-  background-color: #a59881be;
+  background-color: #a59881ef;
   padding: 0;
 }
 
@@ -19,7 +19,7 @@ h5 {
   height: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  border-radius: 5px; /* 5px rounded corners */
+  border-radius: 8px; /* 5px rounded corners */
   padding: 15;
   font-family: Roboto;
 }
